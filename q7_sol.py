@@ -10,10 +10,11 @@ replaceWith = input(" please enter a word you want to replace in string\n")
 ## removing a world from the string 
 #we cant use two return in one funtion or we can?
 
+
 def removeAword(string,wordTobeReplaced,replaceWith):
     newstring= string.replace(wordTobeReplaced,replaceWith)
     return newstring  
 
 
-n= removeAword(string,wordTobeReplaced,replaceWith)
-print(n)
+name= removeAword(string,wordTobeReplaced,replaceWith)
+print(name)
